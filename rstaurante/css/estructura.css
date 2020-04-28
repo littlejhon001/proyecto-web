@@ -306,10 +306,12 @@ table {
 
 .menus{
     width: 100%;
-    background-color: rgba(255, 227, 101, 0.219);
-    height:1260px;
+    background-color: rgba(255, 137, 101, 0.219);
+    height:2050px;
     position: relative;
     top: 40px;
+    margin: 0px;
+    padding: 0px;
     border-radius: 10px;
 
 }
@@ -484,7 +486,7 @@ table {
         
         position: relative;
         top: 100px;
-        background-color: rgba(0, 0, 0, 0.363);
+        background-color: rgba(77, 5, 5, 0.74);
         
     }
 
@@ -542,5 +544,9 @@ table {
         width: 260px;
         height: 250px;
       
+    }
+    .menus{
+        background-color: rgba(3, 182, 3, 0.212);
+        height: 2700px;
     }
 }

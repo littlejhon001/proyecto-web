@@ -19,7 +19,9 @@
   }
   
   .containerImg a {
-    color: #fff;
+    font-family: 'Fredoka One', cursive;
+   
+    color: rgb(255, 233, 137);
   }
   
   img.image {border-radius: 5px;
@@ -54,7 +56,7 @@
   
   .text {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -62,8 +64,8 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    width: 155px;
-    text-shadow: .1px .1px .1px #262626;
+    width: 200px;
+    text-shadow: 3px 2px 2px #1e52fcc9;
   }
   
   /*querys*/
