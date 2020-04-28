@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+
+
+
+  body{  
+    background: url(../imagenes/fondo2.jpg);
+       background-repeat: no-repeat;
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       background-size: 100%, 100%;
+     
+      }
+   
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*# seccion nosotros/color/tamaño */
+.bg-color{
+    position: relative;
+    top:60px ;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 580px;
+    border-radius:10px;
+}
+#banner h2{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 45px;
+    color: #FFB03B;
+}
+#banner p{
+    font-family: 'PT Sans', sans-serif;
+    color: #fcfcfc;
+    font-size: 34px;
+    padding-top: 24px;
+}
+.section-padding{
+    padding: 60px 0px;
+}
+.logo-name{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 65px;
+    margin-top: 130px;
+    color: #FFB03B;
+    text-shadow: 2px 2px 2px rgb(0, 102, 255);
+}
+.sidenav {
+    height: 100%;
+    position: fixed;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.sidenav a:focus {
+    text-decoration: none;
+    color: white;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.menu-icon
+{
+    color: #FFB03B;
+    font-size: 30px;
+    margin-top: 30px;
+    position: absolute;
+    cursor: pointer;
+    right: 30px;
+    top: -15px;
+    z-index: 1;
+}
+
+.header-h {
+
+
+
+    color: #FFB03B;
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px rgb(0, 102, 255);
+}
+.header-p {
+    color: #9699a6;
+    font-size: 16px;
+}
+.msg-row {
+    margin-top: 56px;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.bg-13 {background-color: #f04e4e;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.contact-icon {
+    color: #fff;
+    position: absolute;
+    left: 34px;
+    font-size: 32px;
+    margin-top: 18px;
+}
+.bg-1 {
+    background-color: #fecc17;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.bg-14 {
+    background-color: #ccdb38;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.dark-blue {
+    color: #31364c;
+    font-size: 24px;
+    margin-top: 0;
+}
+.light-blue {
+    color: #9699a6;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+.media-body {
+    margin-left: 10px;
+    padding-left: 13px;
+}
+.media-2 {
+    margin-top: 30px;
+}
+.newinput .form-group {
+    margin: 8px 0 9px !important;
+    padding-bottom: 10px;
+}
+.contact-form .form-control {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 1.42857;
+    padding: 7px 0;
+}
+
+
+
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+    display:block;
+}
+
+.phone-in-talk, .hour-icon
+{
+    font-size: 35px;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+}
+
+
+.heading{
+    font-family: 'Satisfy', sans-serif;
+    color: #FFB03B;
+    font-size: 24px;
+}
+.marb-35{
+    margin-bottom: 35px;
+}
+.details-list{
+    margin-top: 20px;
+}
+.details-list ul li i {
+    margin-right: 10px;
+    color: #ffb03b;
+}
+#about img
+{
+    border: 5px solid rgb(255, 176, 59);
+    border-radius: 2px;
+}
+
+.left-images img {
+    height: 345px;
+    width: 100%;
+}
+.left-images{
+    padding: 0px;
+}
+.details-text {
+    border-right: 2px solid #841b2d;
+}
+.details-text {
+    background-color: rgba(14, 4, 4, 0.70);
+    border-right: 2px solid #A87F41;
+    padding: 20px 20px 30px 30px;
+    overflow: auto;
+}
+.content-holder h2 {
+    color: #FFB03B;
+    font-size: 32px;
+    padding-bottom: 15px;
+    font-family: 'Satisfy', sans-serif;
+}
+.content-holder strong {
+    color: #FFB03B;
+}
+.content-holder p{
+    font-size: 16px;
+}
+.content-holder p:nth-child(2) {
+    padding-bottom: 20px;
+}
+.details-text p {
+    color: #E8E8E8;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+#Container .mix{
+    display: block;
+}
+.menu-restaurant{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+.menu-restaurant .menu-title {
+    float: left;
+    font-size: 20px;
+    font-family: Montserrat,arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFB03B;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu-restaurant .menu-title:hover {
+    opacity: 0.8;
+}
+
+.menus{
+    width: 100%;
+    background-color: rgba(255, 227, 101, 0.219);
+    height:1260px;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+
+}
+.menu-restaurant .menu-line {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+.menu-restaurant .menu-price {
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-restaurant span.clearfix {
+    position: relative;
+    display: block;
+}
+.media-2 .fa {
+    margin: 14px;
+}
+
+.ubicacion{
+    width: 40%;
+    height: 60%;
+    position: relative;
+    top: -380px;
+    left: 700px;
+    margin: 0;
+    padding: 0%;
+    border-radius: 10px;
+    opacity: 0.9;
+     
+}
+
+.cuadro{
+    width:500px;
+    height:350px;
+}
+.footer {
+    width: 100%;
+    background-color: #222;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+}
+.footer a {
+    color: #fff;
+}
+
+.footer .footer-top {
+    padding-top: 20px;
+}
+.footer .totop {
+    font-size: 24px;
+    margin: 20px 4px;
+    color: white;
+    animation: all 0.3 ease;
+    top: 10px;
+}
+.footer .totop .fa:hover {
+    transform: scale(1.5);
+}
+
+.footer .widget-title{
+    padding-bottom: 20px;
+    font-family: 'Satisfy', sans-serif;
+    font-size: 44px;
+    color: #FFB03B;
+    text-shadow: 2px 2px 2px rgb(0, 102, 255);
+    
+}
+.footer .widget, .footer address {
+    color: rgb(255, 133, 133);
+    text-transform: none;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.footer .navigation, .footer .social-list {
+    float: none;
+    margin-bottom: 20px;
+}
+.list-horizontal li {
+    display: inline-block;
+}
+
+
+
+#contact{
+
+    height: 700px;
+    background-image: url("https://i1.wp.com/inc42.com/wp-content/uploads/2019/07/food-delivery.jpg?fit=1360%2C1020&ssl=1");
+    background-size: 100%,100%;
+}
+.footer .social-list i {
+    font-size: 32px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+.footer .social-list i:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.footer .bounce span {
+    position: relative;
+    animation: bounce 2s infinite linear;
+}
+.footer .bounce span:hover {
+    animation: none;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { top: 0; }
+    40% { top: -20px; }
+    60% { top: -10px; }
+}
+@media (min-width: 768px) and (max-width: 980px) {
+    .content-holder h2 {
+        font-size: 23px;
+    }
+    .details-text p {
+        line-height: 16.6px;
+    }
+}
+@media (min-width: 451px) and (max-width: 767px) {
+    .details-text {
+        border:0px;
+        border-bottom: 2px solid #A87F41;
+    }
+}
+@media (min-width: 20px) and (max-width: 620px) {
+    .menu-restaurant {
+    width: 100%;
+    }
+
+    .details-text {
+        border:0px;
+        border-bottom: 2px solid #A87F41;
+    }
+    .header-h {
+        font-size: 30px;
+    }
+    
+    .menus h1{
+
+        font-size: 40px;
+    }
+    
+    .header-p, body{
+        font-size: 14px;
+    }
+    .about-info, .mr-15{
+        margin-bottom: 15px;
+    }
+    #banner h2{
+        font-size: 25px;
+    }
+    #banner p{
+        font-size: 25px;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+
+    .bg-color{
+        width: 100%;
+        
+        position: relative;
+        top: 100px;
+        background-color: rgba(0, 0, 0, 0.363);
+        
+    }
+
+
+    .header-h{
+        
+        position: relative;
+        padding: 0%;
+        
+    }
+  
+    .header-p{
+        position: relative;
+       
+    }
+
+ 
+    .main ul{
+        border-radius: 7px;
+        margin-top:0px;
+        padding: 0px;
+        position: relative;
+        top: -100px;
+        
+    }
+
+
+    body{
+
+    background-image: url("../imagenes/logopagina.jpg");
+    background-size: 100%,100%;
+        
+    }
+    .logo-name{
+
+        position: relative;
+        top: -70px;
+    }
+
+    #contact{
+        padding-top: 10px;
+      background-image: none;
+    }
+ 
+    .ubicacion{
+        position: relative;
+        width: 30%;
+        height: 30%;
+        margin: 0%;   
+        top: -280px;
+        left: 50px;
+      
+    }
+    .cuadro{
+        width: 260px;
+        height: 250px;
+      
+    }
+}
