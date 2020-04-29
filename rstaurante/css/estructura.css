@@ -35,9 +35,9 @@ table {
 /*# seccion nosotros/color/tamaño */
 .bg-color{
     position: relative;
-    top:60px ;
+    top:70px ;
     background-color: rgba(0, 0, 0, 0.6);
-    min-height: 580px;
+    min-height: 610px;
     border-radius:10px;
 }
 #banner h2{
@@ -307,7 +307,7 @@ table {
 .menus{
     width: 100%;
     background-color: rgba(255, 137, 101, 0.219);
-    height:2050px;
+    height:850px;
     position: relative;
     top: 40px;
     margin: 0px;
@@ -382,14 +382,14 @@ table {
 
 .footer .widget-title{
     padding-bottom: 20px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-size: 44px;
-    color: #FFB03B;
+    color: rgb(255, 205, 129);
     text-shadow: 2px 2px 2px rgb(0, 102, 255);
     
 }
 .footer .widget, .footer address {
-    color: rgb(255, 133, 133);
+    color: rgb(255, 104, 104);
     text-transform: none;
     font-style: normal;
     padding-bottom: 15px;
@@ -448,6 +448,12 @@ table {
     }
 }
 @media (min-width: 20px) and (max-width: 620px) {
+
+    html{
+        background-color: rgba(255, 247, 210, 0.541);
+    }
+
+
     .menu-restaurant {
     width: 100%;
     }
