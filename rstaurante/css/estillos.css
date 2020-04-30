@@ -1,0 +1,30 @@
+
+body{
+    background-color: darkslategray;
+}
+
+h1{ 
+    color: rgb(255, 193, 60);
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 0, 0); 
+
+}
+
+.hamburguesa{
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    background-color: deeppink;
+}
+
+
+
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    background-color: deepskyblue;
+    height: 150px;
+}

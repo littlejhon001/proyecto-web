@@ -1,0 +1,15 @@
+.whatsapp { 
+    
+    width: 100%;
+    height: 50px;
+  
+    position: fixed;
+}
+
+
+.icono{
+    position: relative;
+    left: 620px;
+    top: 20px;
+    
+}
