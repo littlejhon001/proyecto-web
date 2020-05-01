@@ -317,6 +317,7 @@ table {
     margin: 0px;
     padding: 0px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(112, 112, 112);
 
 }
 .menu-restaurant .menu-line {
@@ -363,7 +364,7 @@ table {
     width: 100%;
     background-color: #222;
     position: relative;
-    z-index: 1;
+    margin: 0px;
     padding-top: 20px;
 }
 .footer a {
@@ -495,7 +496,7 @@ table {
         width: 100%;
         
         position: relative;
-        top: 100px;
+        top: 150px;
         background-color: rgba(77, 5, 5, 0.74);
         
     }
@@ -537,7 +538,7 @@ table {
     }
 
     #contact{
-        padding-top: 10px;
+        
       background-image: none;
     }
  
@@ -556,8 +557,8 @@ table {
       
     }
     .menus{
-        background-color: rgba(3, 182, 3, 0.212);
-        height: 2700px;
+        background-color: rgba(252, 230, 110, 0.973);
+        height: 1100px;
     }
 
 

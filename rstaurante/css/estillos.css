@@ -1,30 +1,67 @@
 
 body{
-    background-color: darkslategray;
+ background-image: url("../imagenes/background.jpg");
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    color: lemonchiffon;
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    
 }
 
 h1{ 
     color: rgb(255, 193, 60);
     font-family: 'Fredoka One', cursive;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
     text-shadow: 2px 2px 2px rgb(255, 0, 0); 
+    padding-top: 10px;
 
+}
+h2{
+    color: rgb(240, 236, 1);
+    text-shadow: 4px 4px 2px rgb(0, 0, 0); 
+
+}
+p{
+    font-size: 15px;
 }
 
 .hamburguesa{
-    margin: auto;
-    width: 70%;
-    height: 350px;
-    background-color: deeppink;
+    margin: 50px auto;
+    
+    width: 1200px;    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
 }
 
+.hamburguesa img{
+    transition: transform .5s;
+    border-radius: 3px;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    
+
+
+
+}
+
+
+img:hover{
+    transform: scale(1.7);
+    margin: auto;
+    
+}
 
 
 
 footer{
     margin-top: 10px;
     width: 100%;
-    background-color: deepskyblue;
+    background-color: rgba(255, 231, 163, 0.541);
     height: 150px;
 }

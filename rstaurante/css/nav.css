@@ -133,3 +133,26 @@ li {
   transform: translate(482px, 0); }
 
 /*# sourceMappingURL=nav.css.map */
+
+
+@media (min-width: 20px) and (max-width: 620px)
+{
+
+  .main{  
+    
+    font-size: 30px;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 250px;
+    
+
+  }
+  .main li{display: inline block;
+    padding: 0px;
+  }
+  .main li a{
+    text-shadow: 3px 3px 5px rgb(102, 42, 1);
+    color: rgb(252, 255, 73);
+  }
+}

@@ -4,12 +4,52 @@
     height: 50px;
   
     position: fixed;
+    top: 80%;
+    left: 35.3%;
+    z-index: 1;   
 }
-
-
+.whatsapp a{
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(78, 78, 78);
+    background-color: rgb(255, 244, 92);
+    border-radius: 9px;
+    padding: 10px;
+    border: solid;
+}
 .icono{
-    position: relative;
-    left: 620px;
-    top: 20px;
-    
+    text-decoration: none;
+   
 }
+
+@media (min-width: 20px) and (max-width: 620px){
+
+    .whatsapp { 
+        margin: 5px;
+        width: 250px;
+       
+        padding: 10px;
+        position: fixed;
+        top: 40%;
+        left: -10px;
+        z-index: 1;   
+    }
+
+    .whatsapp a{
+        font-size: 15px;
+        font-family: 'Fredoka One', cursive;
+        color: rgb(78, 78, 78);
+        background-color: rgb(255, 244, 92);
+        border-radius: 9px;
+        
+        border: solid;
+    }
+    .icono{
+        width: 30px;
+        height: 30px;
+        text-decoration: none;
+       
+    }
+
+}
+
