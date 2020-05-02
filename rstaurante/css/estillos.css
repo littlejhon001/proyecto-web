@@ -1,9 +1,14 @@
+*{
+    margin: 0px;
+    padding-top: 0px;
+}
+
 
 body{
  background-image: url("../imagenes/background.jpg");
     font-family: 'Fredoka One', cursive;
     font-size: 25px;
-    color: lemonchiffon;
+    color: rgba(255, 255, 254, 0.979);
     background-repeat: no-repeat;
     background-size: 100%,100%;
     
@@ -21,27 +26,35 @@ h1{
 h2{
     color: rgb(240, 236, 1);
     text-shadow: 4px 4px 2px rgb(0, 0, 0); 
-
+    transition: transform .5s;
+    border-radius: 10px;
+    
+    font-size: 35px;
 }
 p{
-    font-size: 15px;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: transform .5s;
+    padding: 5px;
 }
 
 .hamburguesa{
-    margin: 50px auto;
-    
+    margin: auto;
     width: 1200px;    
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     text-align: center;
     padding: 10px;
+    justify-content: center;
 }
 
 .hamburguesa img{
-    transition: transform .5s;
-    border-radius: 3px;
-    padding: 5px;
+  
+    transition: transform .7s;
+    border-radius: 20px;
+    padding: 10px;
     width: 300px;
     height: 400px;
     
@@ -49,19 +62,84 @@ p{
 
 
 }
+header img{ transition: transform .7s;}
 
 
 img:hover{
-    transform: scale(1.7);
-    margin: auto;
+    transform: scale(1.5);
     
+    
+}
+h2:hover{
+    transform: scale(1.2);
+}
+
+p:hover{
+ transform: scale(1.2);
+
 }
 
 
 
-footer{
-    margin-top: 10px;
+.whatsapp { 
+    
     width: 100%;
-    background-color: rgba(255, 231, 163, 0.541);
-    height: 150px;
+    height: 50px;
+    position: fixed;
+    top: 85%;
+    left: 70%;
+    z-index: 1;   
+}
+.whatsapp a{
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(78, 78, 78);
+    background-color: rgb(255, 244, 92);
+    border-radius: 9px;
+    padding: 10px;
+    border: solid;
+    text-decoration: none;
+}
+
+.whatsapp img{
+    transition: transform .4s;
+}
+
+@media (min-width: 20px) and (max-width: 620px)
+
+{
+
+  
+    
+
+
+    body{
+ 
+
+    }
+    .hamburguesa{
+      
+        width: 100%;    
+        border-radius: 10px;
+        display: flex;
+     
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .whatsapp{
+
+        width: 100%;
+        position: fixed;
+        left: 10px;
+    }
+    
+
+
 }
