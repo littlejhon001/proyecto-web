@@ -5,12 +5,13 @@
 
 
 body{
- background-image: url("../imagenes/background.jpg");
+ background-image: url("../imagenes/background.jpg") ;
     font-family: 'Fredoka One', cursive;
     font-size: 25px;
     color: rgba(255, 255, 254, 0.979);
     background-repeat: no-repeat;
     background-size: 100%,100%;
+  
     
 }
 
@@ -39,10 +40,12 @@ p{
     padding: 5px;
 }
 
-.hamburguesa{
+/* Comentario: seccion primera fila de platos  */
+
+.contenedor{
     margin: auto;
     width: 1200px;    
-    border-radius: 10px;
+    border-radius: 0px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -50,10 +53,52 @@ p{
     justify-content: center;
 }
 
-.hamburguesa img{
+.contenedor img{
   
     transition: transform .7s;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    
+
+
+
+}
+header img{ transition: transform .7s;}
+
+
+img:hover{
+    transform: scale(1.5);
+    
+    
+}
+h2:hover{
+    transform: scale(1.2);
+}
+
+p:hover{
+ transform: scale(1.2);
+
+}
+
+/* Comentario: seccion segunda fila de platos  */
+
+.contenedor2 {
+    margin: auto;
+    width: 1200px;    
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.contenedor2 img{
+  
+    transition: transform .7s;
+    border-radius: 10px;
     padding: 10px;
     width: 300px;
     height: 400px;
@@ -95,7 +140,7 @@ p:hover{
     font-family: 'Fredoka One', cursive;
     color: rgb(78, 78, 78);
     background-color: rgb(255, 244, 92);
-    border-radius: 9px;
+    border-radius: 3px;
     padding: 10px;
     border: solid;
     text-decoration: none;
@@ -114,13 +159,25 @@ p:hover{
 
 
     body{
- 
+        background-image: none;
+        background-color: cornflowerblue;
+        
 
     }
-    .hamburguesa{
+    .contenedor{
       
         width: 100%;    
-        border-radius: 10px;
+        border-radius: 3px;
+        display: flex;
+     
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .contenedor2{
+      
+        width: 100%;    
+        border-radius: 3px;
         display: flex;
      
         justify-content: center;
@@ -138,6 +195,10 @@ p:hover{
         width: 100%;
         position: fixed;
         left: 10px;
+    }
+
+    h1{
+        font-size: 60px;
     }
     
 

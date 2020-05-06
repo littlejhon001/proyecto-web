@@ -313,7 +313,7 @@ table {
 .menus{
     width: 100%;
     background-color: rgba(255, 137, 101, 0.219);
-    height:850px;
+    height:1300px;
     position: relative;
     top: 100px;
     margin: 0px;
@@ -367,7 +367,7 @@ table {
     background-color: #222;
     position: relative;
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .footer a {
     color: #fff;
@@ -560,7 +560,7 @@ table {
     }
     .menus{
         background-color: rgba(252, 230, 110, 0.973);
-        height: 1100px;
+        height: 1500px;
     }
 
 

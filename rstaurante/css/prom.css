@@ -1,0 +1,35 @@
+.promociones{
+  
+    margin: auto;
+   
+    margin-top: 60%;
+}
+
+.promociones h2{
+    font-family: 'Fredoka One', cursive;
+    color: crimson;
+    transition: transform .5s;
+    text-shadow: 2px 2px 3px rgb(56, 199, 218);
+}
+
+.promociones img{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border:solid;
+    transition: transform .5s;
+    padding: 0%;
+
+}
+
+.promociones img:hover{
+
+    transform: scale(1.6);
+}
+
+.promociones h2:hover{
+
+    transform: scale(1.6);
+}
+
