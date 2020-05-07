@@ -1,17 +1,19 @@
 *{
     margin: 0px;
     padding-top: 0px;
+   
 }
 
 
 body{
- background-image: url("../imagenes/background.jpg") ;
+    background-image: url("../imagenes/background.jpg");
     font-family: 'Fredoka One', cursive;
     font-size: 25px;
     color: rgba(255, 255, 254, 0.979);
     background-repeat: no-repeat;
-    background-size: 100%,100%;
-  
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+   
     
 }
 
@@ -33,7 +35,7 @@ h2{
     font-size: 35px;
 }
 p{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     border-radius: 10px;
     transition: transform .5s;
@@ -154,13 +156,10 @@ p:hover{
 
 {
 
-  
-    
-
 
     body{
         background-image: none;
-        background-color: cornflowerblue;
+        background-color: rgba(2, 39, 107, 0.712);
         
 
     }
