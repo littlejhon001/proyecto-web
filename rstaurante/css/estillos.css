@@ -6,7 +6,7 @@
 
 
 body{
-    background-image: url("../imagenes/background.jpg");
+    background-image: url("../imagenes/imagen3.jpg");
     font-family: 'Fredoka One', cursive;
     font-size: 25px;
     color: rgba(255, 255, 254, 0.979);
@@ -18,28 +18,29 @@ body{
 }
 
 h1{ 
-    color: rgb(255, 193, 60);
+    color: rgba(15, 255, 107, 0.815);
     font-family: 'Fredoka One', cursive;
     font-size: 80px;
     text-align: center;
-    text-shadow: 2px 2px 2px rgb(255, 0, 0); 
+    text-shadow: 3px 3px 5px rgb(46, 3, 3); 
     padding-top: 10px;
 
 }
 h2{
     color: rgb(240, 236, 1);
-    text-shadow: 4px 4px 2px rgb(0, 0, 0); 
+    text-shadow: 3px 3px 5px rgb(46, 3, 3); 
     transition: transform .5s;
     border-radius: 10px;
     
     font-size: 35px;
 }
 p{
-    color: rgb(255, 255, 255);
+    color: rgb(236, 236, 236);
     font-size: 25px;
     border-radius: 10px;
     transition: transform .5s;
     padding: 5px;
+    text-shadow: 3px 3px 5px rgb(46, 3, 3); 
 }
 
 /* Comentario: seccion primera fila de platos  */
@@ -156,9 +157,10 @@ p:hover{
 
 
     body{
-        background-image: none;
-        background: rgba(8,13,58,1);
-background: -moz-linear-gradient(top, rgba(8,13,58,1) 0%,  rgb(226, 52, 78) 100%);
+        background-image:url("../imagenes/fondocelular.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        background: -moz-linear-gradient(top, rgba(8, 13, 58, 0.692) 0%,  rgb(226, 52, 78) 50%);
 
     }
     .contenedor{
@@ -189,10 +191,10 @@ background: -moz-linear-gradient(top, rgba(8,13,58,1) 0%,  rgb(226, 52, 78) 100%
         height: 130px;
     }
     h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     p{
-        font-size: 18px;
+        font-size: 25px;
     }
     .whatsapp{
 
@@ -212,7 +214,7 @@ background: -moz-linear-gradient(top, rgba(8,13,58,1) 0%,  rgb(226, 52, 78) 100%
         font-size: 60px;
     }
     img:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
         
     }
     

@@ -87,5 +87,10 @@
     .containerOverlay{
       width: 100%;
     }
+
+    p{
+      color:tomato;
+      font-size: 28px;
+    }
     
   }

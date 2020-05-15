@@ -526,11 +526,14 @@ table {
         
     }
 
-
+    html{
+        background-color: rgb(255, 197, 183);
+    }
     body{
 
-    background-image: url("../imagenes/logopagina.jpg");
+    background-image: url("../imagenes/logopagina2.jpg");
     background-size: 100%,100%;
+    
         
     }
     .logo-name{
@@ -559,8 +562,8 @@ table {
       
     }
     .menus{
-        background-color: rgba(252, 230, 110, 0.973);
-        height: 1500px;
+        background-color:rgba(231, 255, 126, 0.568);
+        height: 1570px;
     }
 
 
