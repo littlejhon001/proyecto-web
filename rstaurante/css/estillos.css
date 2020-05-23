@@ -18,11 +18,11 @@ body{
 }
 
 h1{ 
-    color: rgba(15, 255, 107, 0.815);
+    color:goldenrod;
     font-family: 'Fredoka One', cursive;
     font-size: 80px;
     text-align: center;
-    text-shadow: 3px 3px 5px rgb(46, 3, 3); 
+    text-shadow: 6px 6px 5px rgb(46, 3, 3); 
     padding-top: 10px;
 
 }
@@ -42,6 +42,28 @@ p{
     padding: 5px;
     text-shadow: 3px 3px 5px rgb(46, 3, 3); 
 }
+
+footer{
+    width: 100%;
+    background-color: #222;
+    position: relative;
+    margin: 0px;
+    padding-top: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer h4{
+    font-size: 20px;
+    color: gold;
+}
+footer address {font-size: 15px; color: firebrick;}
+footer p{
+    font-size: 7px;
+    color: firebrick;
+}
+
 
 /* Comentario: seccion primera fila de platos  */
 
@@ -155,10 +177,15 @@ p:hover{
 
 {
 
+    html{
 
+        background-color: blanchedalmond;
+    }
     body{
+      
         background-image:url("../imagenes/fondocelular.jpg");
         background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: 100%, 100%;
         background: -moz-linear-gradient(top, rgba(8, 13, 58, 0.692) 0%,  rgb(226, 52, 78) 50%);
 
@@ -216,6 +243,9 @@ p:hover{
     img:hover{
         transform: scale(1.1);
         
+    }
+    footer{
+        width: 100%;
     }
     
 
